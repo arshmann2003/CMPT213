@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/StoreMinions.java" root0="SKIP_INSPECTION" />
   </component>
@@ -60,6 +63,7 @@
       <workItem from="1673816349678" duration="14725000" />
       <workItem from="1673855406245" duration="357000" />
       <workItem from="1674108253775" duration="114000" />
+      <workItem from="1675559887719" duration="49000" />
     </task>
     <servers />
   </component>

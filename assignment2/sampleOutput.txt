@@ -1,0 +1,186 @@
+***************************************
+Water Purification Inventory Management
+by Your Name Here.
+***************************************
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 2
+No units defined.
+Please create a unit and then re-try this option.
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 6
+
+******************
+* Report Options *
+******************
+1. ALL:           All products.
+2. DEFECTIVE:     Products that failed their last test.
+3. READY-TO-SHIP: Products passed tests, not shipped.
+4. Cancel report request.
+> 1
+
+List of Water Purification Units:
+*************************************
+No units found.
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 3
+Enter product info; blank line to quit.
+Model: abc
+Serial number: 123
+Unable to add the product.
+     'Serial Number Error: Checksum does not match.'
+Please try again.
+Serial number: 12306
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 4
+Enter the serial number (0 for list, -1 for cancel): 101
+No unit found matching serial '101'
+Enter the serial number (0 for list, -1 for cancel): -2
+No unit found matching serial '-2'
+Enter the serial number (0 for list, -1 for cancel):
+No unit found matching serial ''
+Enter the serial number (0 for list, -1 for cancel): 12306
+Pass? (Y/n): q
+Error: Please enter [Y]es or [N]o:
+Comment: Ok.
+Test recorded.
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 5
+Enter the serial number (0 for list, -1 for cancel): 12306
+Unit successfully shipped.
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 5
+Enter the serial number (0 for list, -1 for cancel): 12306
+Unit successfully shipped.
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 2
+Enter the serial number (0 for list, -1 for cancel): 12306
+
+Unit details:
+    Serial: 12306
+     Model: abc
+ Ship Date: 2023-01-26
+
+Tests
+*********
+        Date   Passed?  Test Comments
+------------  --------  -------------
+  2023-01-26    Passed  Ok.
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 6
+
+******************
+* Report Options *
+******************
+1. ALL:           All products.
+2. DEFECTIVE:     Products that failed their last test.
+3. READY-TO-SHIP: Products passed tests, not shipped.
+4. Cancel report request.
+> 5
+Error: Please enter a selection between 1 and 4
+> -1
+Error: Please enter a selection between 1 and 4
+>
+4
+
+*************
+* Main Menu *
+*************
+1. Read JSON input file.
+2. Display info on a unit.
+3. Create new unit.
+4. Test a unit.
+5. Ship a unit.
+6. Print report.
+7. Set report sort order.
+8. Exit
+> 8
+
+Process finished with exit code 0

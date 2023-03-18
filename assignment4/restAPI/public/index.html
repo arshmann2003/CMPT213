@@ -1,0 +1,98 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/game.css"/>
+
+</head>
+<body>
+    <!-- Full game div -->
+    <div id="gameApp">
+        <p>Welcome to the Maze Game, written by <strong>{{authorName}}</strong>.</p>
+
+        <!-- Manual buttons for control-->
+        <p>
+            <button type="button" v-on:click="newGame()">
+                New Game
+            </button>
+
+            <span v-if="game != null">
+                <button type="button" v-on:click="cheat1Cheese()">
+                    Cheat: 1 Cheese
+                </button>
+                <button type="button" v-on:click="cheatShowAll()">
+                    Cheat: Show All
+                </button>
+                <button type="button" v-on:click="catMove()">
+                    Force Cat Move
+                </button>
+            </span>
+        </p>
+
+        <!-- Game state -->
+        <p v-if="game != null">
+            You have found {{game.numCheeseFound}} of {{game.numCheeseGoal}}!</p>
+        <p v-else>
+            No game information available; try creating a new game?
+        </p>
+
+
+        <!-- Board -->
+        <div v-if="board != null">
+            <table>
+                <tr v-for="(row, rowIdx) in board.hasWalls">
+                    <td v-for="(isWall, colIdx) in row">
+                        <div style="position: relative; left:0; top:0;">
+                            <!-- Background -->
+                            <img v-if="!board.isVisible[rowIdx][colIdx]" src="res/empty.png"/>
+                            <img v-else-if="isWall" src="res/wall.png" />
+                            <img v-else src="res/field.png"/>
+
+                            <!-- Sprites: stack them on top of each other using relative position -->
+                            <img v-if="locationMatches(board.cheeseLocation, colIdx, rowIdx)"
+                                 src="res/cookie.png" class="stack"/>
+                            <div v-if="locationMatches(board.mouseLocation, colIdx, rowIdx)">
+                                <!-- Player image depends on if won/lost/playing -->
+                                <img v-if="game.isGameWon" src="res/smile.png" class="stack"/>
+                                <img v-else-if="game.isGameLost" src="res/cancel.png" class="stack"/>
+                                <img v-else src="res/person.png" class="stack"/>
+                            </div>
+                            <div v-for="catLoc in board.catLocations">
+                                <img v-if="locationMatches(catLoc, colIdx, rowIdx)"
+                                     src="res/fox.png" class="stack"/>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Won / loss -->
+            <h1 v-if="game.isGameWon">YOU WON! Congratulations!</h1>
+            <h1 v-if="game.isGameLost">YOU LOST! Try again?</h1>
+
+            <!-- Buttons for testing -->
+            <h2>Testing API Error Handling</h2>
+            <p>
+                <button type="button" v-on:click="getBadGame()">
+                    Test: Bad Game
+                </button>
+                <button type="button" v-on:click="getBadBoard()">
+                    Test: Bad Board
+                </button>
+                <button type="button" v-on:click="doBadCheat()">
+                    Test: Bad Cheat
+                </button>
+                <button type="button" v-on:click="doBadMove()">
+                    Test: Bad Move
+                </button>
+            </p>
+        </div>
+    </div>
+
+
+    <p>Icons created by <a href="https://www.everaldo.com/about">Everaldo Coelho</a>
+        as part of the <a href="https://www.iconfinder.com/iconsets/crystalproject">Crystal Project</a>;
+        used under LGPL.</p>
+    <!--Load controlling code development -->
+    <script src="scripts/game.js"></script>
+</body>

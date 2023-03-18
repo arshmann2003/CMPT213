@@ -1,0 +1,40 @@
+{
+  "shapes": [
+    {
+      "top": 0,
+      "left": 0,
+      "width": 5,
+      "height": 3,
+      "background": "solid",
+      "backgroundColor": "green",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": "."
+    },
+    {
+      "top": 5,
+      "left": 2,
+      "width": 16,
+      "height": 10,
+      "background": "solid",
+      "backgroundColor": "blue",
+      "line": "char",
+      "lineChar": "#",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 8,
+      "left": 14,
+      "width": 24,
+      "height": 22,
+      "background": "solid",
+      "backgroundColor": "yellow",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": "I"
+    }
+  ]
+}

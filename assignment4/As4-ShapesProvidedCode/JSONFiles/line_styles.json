@@ -1,0 +1,162 @@
+{
+  "shapes": [
+    {
+      "top": 0,
+      "left": 10,
+      "height": 3,
+      "width": 38,
+      "background": "solid",
+      "backgroundColor": "white",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+
+
+    {
+      "top": 5,
+      "left": 0,
+      "height": 5,
+      "width": 5,
+      "background": "solid",
+      "backgroundColor": "green",
+      "line": "ascii line",
+      "fill": "solid",
+      "fillText": "+"
+    },
+    {
+      "top": 5,
+      "left": 7,
+      "height": 2,
+      "width": 2,
+      "background": "solid",
+      "backgroundColor": "yellow",
+      "line": "ascii line",
+      "fill": "solid",
+      "fillText": "+"
+    },
+    {
+      "top": 5,
+      "left": 11,
+      "height": 2,
+      "width": 1,
+      "background": "solid",
+      "backgroundColor": "yellow",
+      "line": "ascii line",
+      "fill": "solid",
+      "fillText": "+"
+    },
+    {
+      "top": 5,
+      "left": 15,
+      "height": 1,
+      "width": 2,
+      "background": "solid",
+      "backgroundColor": "yellow",
+      "line": "ascii line",
+      "fill": "solid",
+      "fillText": "+"
+    },
+    {
+      "top": 5,
+      "left": 20,
+      "height": 1,
+      "width": 1,
+      "background": "solid",
+      "backgroundColor": "yellow",
+      "line": "ascii line",
+      "fill": "solid",
+      "fillText": "+"
+    },
+    {
+      "top": 5,
+      "left": 25,
+      "height": 3,
+      "width": 10,
+      "background": "solid",
+      "backgroundColor": "yellow",
+      "line": "ascii line",
+      "fill": "solid",
+      "fillText": "+"
+    },
+
+    {
+      "top": 15,
+      "left": 0,
+      "height": 7,
+      "width": 12,
+      "background": "solid",
+      "backgroundColor": "orange",
+      "line": "sequence",
+      "fill": "solid",
+      "fillText": "_"
+    },
+    {
+      "top": 15,
+      "left": 17,
+      "height": 2,
+      "width": 2,
+      "background": "solid",
+      "backgroundColor": "magenta",
+      "line": "sequence",
+      "fill": "solid",
+      "fillText": "_"
+    },
+    {
+      "top": 15,
+      "left": 22,
+      "height": 3,
+      "width": 3,
+      "background": "solid",
+      "backgroundColor": "cyan",
+      "line": "sequence",
+      "fill": "solid",
+      "fillText": "_"
+    },
+    {
+      "top": 15,
+      "left": 27,
+      "height": 2,
+      "width": 1,
+      "background": "solid",
+      "backgroundColor": "cyan",
+      "line": "sequence",
+      "fill": "solid",
+      "fillText": "_"
+    },
+    {
+      "top": 15,
+      "left": 32,
+      "height": 1,
+      "width": 2,
+      "background": "solid",
+      "backgroundColor": "cyan",
+      "line": "sequence",
+      "fill": "solid",
+      "fillText": "_"
+    },
+    {
+      "top": 15,
+      "left": 36,
+      "height": 1,
+      "width": 1,
+      "background": "solid",
+      "backgroundColor": "cyan",
+      "line": "sequence",
+      "fill": "solid",
+      "fillText": "_"
+    },
+    {
+      "top": 15,
+      "left": 40,
+      "height": 10,
+      "width": 30,
+      "background": "solid",
+      "backgroundColor": "pink",
+      "line": "sequence",
+      "fill": "solid",
+      "fillText": " "
+    }
+  ]
+}

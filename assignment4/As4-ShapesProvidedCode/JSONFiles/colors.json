@@ -1,0 +1,211 @@
+{
+  "shapes": [
+    {
+      "top": 0,
+      "left": 0,
+      "width": 4,
+      "height": 4,
+      "background": "solid",
+      "backgroundColor": "red",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+
+
+    {
+      "top": 6,
+      "left": 0,
+      "width": 4,
+      "height": 4,
+      "background": "triangle",
+      "backgroundColor": "green",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 6,
+      "left": 5,
+      "width": 6,
+      "height": 6,
+      "background": "triangle",
+      "backgroundColor": "blue",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 6,
+      "left": 18,
+      "width": 5,
+      "height": 5,
+      "background": "triangle",
+      "backgroundColor": "black",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 6,
+      "left": 25,
+      "width": 2,
+      "height": 2,
+      "background": "triangle",
+      "backgroundColor": "dark gray",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 6,
+      "left": 35,
+      "width": 1,
+      "height": 1,
+      "background": "triangle",
+      "backgroundColor": "red",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 0,
+      "left": 40,
+      "width": 10,
+      "height": 10,
+      "background": "triangle",
+      "backgroundColor": "yellow",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 0,
+      "left": 52,
+      "width": 23,
+      "height": 23,
+      "background": "triangle",
+      "backgroundColor": "blue",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+
+    {
+      "top": 13,
+      "left": 0,
+      "width": 5,
+      "height": 5,
+      "background": "checker",
+      "backgroundColor": "blue",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 13,
+      "left": 8,
+      "width": 6,
+      "height": 6,
+      "background": "checker",
+      "backgroundColor": "green",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 13,
+      "left": 16,
+      "width": 2,
+      "height": 2,
+      "background": "checker",
+      "backgroundColor": "red",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 13,
+      "left": 20,
+      "width": 1,
+      "height": 1,
+      "background": "checker",
+      "backgroundColor": "black",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 13,
+      "left": 25,
+      "width": 2,
+      "height": 4,
+      "background": "checker",
+      "backgroundColor": "magenta",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 13,
+      "left": 30,
+      "width": 4,
+      "height": 2,
+      "background": "checker",
+      "backgroundColor": "magenta",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 13,
+      "left": 37,
+      "width": 1,
+      "height": 4,
+      "background": "checker",
+      "backgroundColor": "magenta",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 13,
+      "left": 40,
+      "width": 4,
+      "height": 1,
+      "background": "checker",
+      "backgroundColor": "magenta",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    },
+    {
+      "top": 19,
+      "left": 17,
+      "width": 43,
+      "height": 11,
+      "background": "checker",
+      "backgroundColor": "pink",
+      "line": "char",
+      "lineChar": "*",
+      "fill": "solid",
+      "fillText": " "
+    }
+ ]
+}

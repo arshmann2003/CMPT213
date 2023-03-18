@@ -1,0 +1,188 @@
+[
+  {
+    "model": "ABC-123",
+    "serialNumber": "101",
+    "dateShipped": "2010-12-30",
+    "tests": [
+      {
+        "date": "2009-01-01",
+        "isTestPassed": false,
+        "testResultComment": "Bad connector"
+      },
+      {
+        "date": "2009-01-02",
+        "isTestPassed": true,
+        "testResultComment": "Connector replaced"
+      },
+      {
+        "date": "2010-12-01",
+        "isTestPassed": false,
+        "testResultComment": "Unit sat idle; battery dead"
+      },
+      {
+        "date": "2009-12-22",
+        "isTestPassed": true,
+        "testResultComment": "Battery charged and unit retested"
+      }
+    ]
+  },
+  {
+    "model": "ABC-123",
+    "serialNumber": "99999999999201",
+    "tests": []
+  },
+  {
+    "model": "ABC-123",
+    "serialNumber": "99999999999302",
+    "dateShipped": "2020-01-01",
+    "tests": [
+      {
+        "date": "2020-01-01",
+        "isTestPassed": true,
+        "testResultComment": ""
+      }
+    ]
+  },
+  {
+    "model": "ABC-123",
+    "serialNumber": "99999999999403",
+    "dateShipped": "1984-12-14",
+    "tests": []
+  },
+  {
+    "model": "ABC-123",
+    "serialNumber": "303",
+    "dateShipped": "2010-01-01",
+    "tests": [
+      {
+        "date": "2010-01-01",
+        "isTestPassed": false,
+        "testResultComment": "Smoke *everywhere*!"
+      }
+    ]
+  },
+  {
+    "model": "EarlyTest",
+    "serialNumber": "404",
+    "tests": [
+      {
+        "date": "1009-04-12",
+        "isTestPassed": false,
+        "testResultComment": "Unable to boot"
+      }
+    ]
+  },
+  {
+    "model": "LateTest",
+    "serialNumber": "505",
+    "tests": [
+      {
+        "date": "9999-04-12",
+        "isTestPassed": true,
+        "testResultComment": "Good!"
+      }
+    ]
+  },
+  {
+    "model": "NoTests",
+    "serialNumber": "606",
+    "tests": [        ]
+  },
+  {
+    "model": "XYZ-335",
+    "serialNumber": "532515",
+    "dateShipped": "2023-01-25",
+    "tests": [
+      {
+        "date": "2023-01-24",
+        "isTestPassed": false,
+        "testResultComment": "Failed on reset test."
+      },
+      {
+        "date": "2023-01-25",
+        "isTestPassed": true,
+        "testResultComment": "Retested after rework."
+      }
+    ]
+  },
+  {
+    "model": "XYZ-335",
+    "serialNumber": "60000006",
+    "tests": [
+      {
+        "date": "2030-01-01",
+        "isTestPassed": true,
+        "testResultComment": "Initial production test passed"
+      },
+      {
+        "date": "2030-01-02",
+        "isTestPassed": true,
+        "testResultComment": "Follow-up test 1"
+      },
+      {
+        "date": "2030-01-03",
+        "isTestPassed": true,
+        "testResultComment": "Follow-up test 2"
+      },
+      {
+        "date": "2030-01-04",
+        "isTestPassed": true,
+        "testResultComment": "Follow-up test 3"
+      },
+      {
+        "date": "2030-01-06",
+        "isTestPassed": false,
+        "testResultComment": "Retest after unit dropped; broken connector"
+      }
+    ]
+  },
+  {
+    "model": "XYZ-335",
+    "serialNumber": "202",
+    "tests": [
+      {
+        "date": "2032-01-01",
+        "isTestPassed": true,
+        "testResultComment": "Initial production test passed"
+      },
+      {
+        "date": "2032-01-02",
+        "isTestPassed": true,
+        "testResultComment": "Follow-up test 1"
+      },
+      {
+        "date": "2032-01-03",
+        "isTestPassed": true,
+        "testResultComment": "Follow-up test 2"
+      },
+      {
+        "date": "2032-01-04",
+        "isTestPassed": true,
+        "testResultComment": "Follow-up test 3"
+      },
+      {
+        "date": "2032-01-06",
+        "isTestPassed": true,
+        "testResultComment": "Retest after unit dropped; JUST FINE!"
+      }
+    ]
+  },
+  {
+    "model": "ZZ-9-LAST",
+    "serialNumber": "000",
+    "tests": [
+      {
+        "date": "1900-01-01",
+        "isTestPassed": true,
+        "testResultComment": ""
+      },
+      {
+        "date": "2099-12-31",
+        "isTestPassed": true,
+        "testResultComment": ""
+      }
+    ]
+  }
+
+
+]
