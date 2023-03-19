@@ -7,6 +7,7 @@ import java.awt.*;
 import java.util.Objects;
 
 public class Shape implements DrawableShape {
+    private Canvas canvas;
     static public int x;
     public int top;
     public int left;
@@ -34,6 +35,7 @@ public class Shape implements DrawableShape {
     }
 
     public void draw(Canvas canvas) {
+        this.canvas = canvas;
         Color color = getColor(backgroundColor);
 
         for(int i = 0; i<height; i++){
@@ -42,21 +44,22 @@ public class Shape implements DrawableShape {
                 canvas.setCellText(left+j, top+i, ' ');
             }
         }
-        setBorder(canvas);
+        setBorder();
 
 
     }
-    private void setBorder(Canvas canvas){
+    private void setBorder(){
         char borderSymbol = ' ';
         if(line.equals("char"))
             borderSymbol = lineChar.charAt(0);
         else if(line.equals("sequence")){
+            // 1234512345...
 
         }
         else{
 
         }
-        if(borderSymbol==' '){
+        if(borderSymbol!=' '){
             for(int i = 0; i<height; i++) {// Left column
                 canvas.setCellText(left, top + i, borderSymbol);
                 canvas.setCellText(left + width - 1, top + i, borderSymbol);
@@ -87,5 +90,19 @@ public class Shape implements DrawableShape {
     }
 
 
+    public void redact() {
 
+
+        canvas.setCellColor(0, 0, Color.LIGHT_GRAY);
+        canvas.setCellText(0, 0, 'X');
+
+
+        for(int i = 0; i<height; i++){
+            for(int j = 0; j<width; j++){
+                System.out.println("BRUH");
+                canvas.setCellColor(left+j, top+i, Color.LIGHT_GRAY);
+                canvas.setCellText(left+j, top+i, ' ');
+            }
+        }
+    }
 }

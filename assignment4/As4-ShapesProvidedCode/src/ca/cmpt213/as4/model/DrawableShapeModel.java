@@ -30,6 +30,9 @@ public class DrawableShapeModel implements ShapeModel {
     @Override
     public void redact() {
 //        color = Color.LIGHT_GRAY;
+        for(int i=0; i<shapes.size(); i++){
+            shapes.get(i).redact();
+        }
 //        int length = text.length();
 //        text = "";
 //        for (int i = 0; i < length; i++) {
