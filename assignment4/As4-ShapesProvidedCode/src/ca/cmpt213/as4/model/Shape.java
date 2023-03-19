@@ -56,7 +56,7 @@ public class Shape implements DrawableShape {
         else{
 
         }
-        if(borderSymbol==' '){
+        if(borderSymbol!=' '){
             for(int i = 0; i<height; i++) {// Left column
                 canvas.setCellText(left, top + i, borderSymbol);
                 canvas.setCellText(left + width - 1, top + i, borderSymbol);

@@ -49,6 +49,7 @@ public class DrawableShapeModel implements ShapeModel {
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
+
         JsonParser jsonParser = new JsonParser();
         JsonObject jsonObj = (JsonObject) jsonParser.parse(fileReader);
         JsonArray arr = jsonObj.get("shapes").getAsJsonArray();
