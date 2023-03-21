@@ -28,9 +28,21 @@ public class DrawableShapeModel implements ShapeModel {
     // Redact all our objects (UI updates after calling this)
     @Override
     public void redact() {
+<<<<<<< HEAD:assignment4/CanvasApplication/src/ca/cmpt213/as4/model/DrawableShapeModel.java
         for (Shape shape : shapes) {
             shape.redact();
         }
+=======
+//        color = Color.LIGHT_GRAY;
+        for(int i=0; i<shapes.size(); i++){
+            shapes.get(i).redact();
+        }
+//        int length = text.length();
+//        text = "";
+//        for (int i = 0; i < length; i++) {
+//            text += "X";
+//        }
+>>>>>>> d3db47bb3c7bb7780d51b26a59c408a29d2b466f:assignment4/As4-ShapesProvidedCode/src/ca/cmpt213/as4/model/DrawableShapeModel.java
 
     }
     @Override
