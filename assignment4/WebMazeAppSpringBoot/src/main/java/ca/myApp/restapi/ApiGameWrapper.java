@@ -1,5 +1,9 @@
 package ca.myApp.restapi;
 
+/**
+ * Hold information about maze game and update during runtime
+ */
+
 public class ApiGameWrapper {
     public int gameNumber;      // Same as the ID
     public boolean isGameWon;

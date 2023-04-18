@@ -1,8 +1,11 @@
 package ca.cmpt213.as4.model;
 
+/**
+ * Manage data from each object loaded from JSON file
+ */
+
 import ca.cmpt213.as4.UI.Canvas;
 import ca.cmpt213.as4.UI.DrawableShape;
-
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.Objects;

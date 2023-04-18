@@ -1,5 +1,9 @@
 package ca.myApp.restapi;
 
+/**
+ * Store x and y positions of mae objects
+ */
+
 public class ApiLocationWrapper {
     public int x;
     public int y;

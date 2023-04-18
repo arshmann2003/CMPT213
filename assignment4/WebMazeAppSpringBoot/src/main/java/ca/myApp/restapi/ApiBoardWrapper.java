@@ -1,9 +1,12 @@
 package ca.myApp.restapi;
 
+/**
+ * Hold information of each board created during runtime
+ */
+
 import ca.myApp.model.CellLocation;
 import ca.myApp.model.Maze;
 import ca.myApp.model.MazeGame;
-
 import java.util.ArrayList;
 import java.util.List;
 

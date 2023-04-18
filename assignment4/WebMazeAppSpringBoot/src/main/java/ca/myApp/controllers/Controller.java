@@ -1,5 +1,8 @@
 package ca.myApp.controllers;
 
+/**
+ * Controller to make get and post requests for spring boot application
+ **/
 
 import ca.myApp.model.MazeGame;
 import ca.myApp.model.MoveDirection;
@@ -8,7 +11,6 @@ import ca.myApp.restapi.ApiGameWrapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.ArrayList;
 import java.util.List;
 
